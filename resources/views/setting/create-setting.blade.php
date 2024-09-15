@@ -24,7 +24,11 @@
             </div>
             <div class="mb-3">
                 <label for="temperature" class="form-label">Temperature</label>
-                <input type="number" class="form-control" id="temperature" value="0.11" step="0.01">
+                <input type="number" class="form-control" name="oai_temp" id="oai_temp">
+            </div>
+            <div class="mb-3">
+                <label for="temperature" class="form-label">Token</label>
+                <input type="text" class="form-control" name="oai_token" id="oai_token">
             </div>
             <button type="submit" class="btn btn-primary">Save settings</button>
         </form>
